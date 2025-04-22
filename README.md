@@ -35,4 +35,34 @@ If everything went well, you should see this page at [localhost](http://127.0.0.
 
 ## Assessment
 
-You will receive the assessment on the day of the interview.
+We’ll keep things straightforward so you don’t waste time!
+
+Your objective is to implement a simple login form validation with authentication. You’ll be starting with some broken code — that’s intentional, and it serves as a hint for how you might fix it. 😉
+
+**Bonus**: Redirect to the dashboard after a successful login.
+
+### Rules
+
+- You should **only** modify the `app/pages/LoginPage.tsx` file.
+- Do **not** use Google or AI tools.
+- You don’t need to change any styling.
+- You can only use for resources:
+    - [mdn](https://developer.mozilla.org/en-US/)
+    - [React docs](https://react.dev/)
+- You have **15 minutes**. 👍
+
+### What we expect
+
+Your implementation should:
+
+- Validate the email format.
+- Check if the password is missing.
+- Confirm whether the email and password match the predefined values in the file.
+
+The images below are for reference. Desktop mode is totally fine to use!
+
+| **Invalid or missing password**              | **Invalid authentication**                    |
+| -------------------------------------------- | --------------------------------------------- |
+| ![Expected result - part 1](misc/sample1.png) | ![Expected result - part 2](misc/sample2.png) |
+
+Happy coding! ✌️
